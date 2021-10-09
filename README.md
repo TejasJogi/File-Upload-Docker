@@ -22,10 +22,12 @@ To deploy this project run
 
 ```bash
   $ docker run -dp 8080:8080 tejasjogi/file-upload:fileuplad
+```
+OR
 
+```
   $ sudo docker run -dp 8080:8080 tejasjogi/file-upload:fileupload
 ```
-
 ## Authors
 
 [TejasJogi](https://www.github.com/TejasJogi)
