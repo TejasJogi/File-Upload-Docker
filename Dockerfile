@@ -2,8 +2,10 @@ FROM python:bullseye
 
 WORKDIR /Upload
 
+RUN pip freeze > requirements.txt
+RUN pip install flask
+RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install -r requirements.txt
-RUN apt-get update && apt-get install -y --no-install-recommends
 
 COPY . /Upload/
 
