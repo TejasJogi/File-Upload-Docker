@@ -21,7 +21,7 @@ Project is created with:
 To deploy this project run
 
 ```bash
-  $ docker run -dp 8080:8080 tejasjogi/file-upload:fileuplad
+  $ docker run -dp 8080:8080 tejasjogi/file-upload:fileupload
 ```
 OR
 
