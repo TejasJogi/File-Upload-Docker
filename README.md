@@ -20,12 +20,10 @@ Project is created with:
 To deploy this project run
 
 ```bash
+  $ docker pull tejasjogi/file-upload:fileupload
+```
+```
   $ docker run -dp 8080:8080 tejasjogi/file-upload:fileupload
-```
-OR
-
-```
-  $ sudo docker run -dp 8080:8080 tejasjogi/file-upload:fileupload
 ```
 
 ## Authors
