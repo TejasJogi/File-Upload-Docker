@@ -20,7 +20,7 @@ Project is created with:
 To deploy this project run
 
 ```bash
-  $ docker pull tejasjogi/file-upload:fileupload
+  $ docker pull tejasjogi/webapp:mywebapp
 ```
 ```
   $ docker run -dp 8080:8080 tejasjogi/file-upload:fileupload
